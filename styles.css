@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 body{
     display: flex;
     flex-direction: column;
@@ -61,7 +62,6 @@ a{
     margin-left: 200px;
     flex: auto;
     width: 100px;
-    justify-content: space-between
 }
 
 img{
@@ -97,4 +97,42 @@ img{
 .hero-button:hover{
     background-color: #e5e7eb;
     color: #3882f6;
+}
+
+.img-and-text{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.info-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 120px;
+    width: 190px;
+    align-items: center;
+    justify-content: center;
+}
+
+#information{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 50px;
+}
+
+.info-img{
+    width: 180px;
+    height: auto;
+    border: 4px solid #3882f6;
+    border-radius: 15px;
+}
+
+.info-text{
+    text-align: center;
+    margin: 10px 3px;
+    color: #1f2937;
+    font-family: 'Roboto', sans-serif;
 }
