@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap');
 body{
     display: flex;
     flex-direction: column;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 .header{
     display: flex;
@@ -17,19 +18,18 @@ body{
     font-size: 24px;
     font-weight: bold;
     margin-left: 200px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 .links{
-    margin-right: 200px;
+    margin-right: 190px;
 }
 
 a{
     text-decoration: none;
-    color: #e5e7eb;
+    color: #cdcfd1;
     font-size: 18px;
-    margin-left: 18px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    margin-left: 8px;
+    padding: 10px;
 }
 
 .hero{
@@ -50,7 +50,7 @@ a{
 
 .hero-sec-text{
     font-size: 18px;
-    color: #e5e7eb;
+    color: #cdcfd1;
     margin: 20px;
     margin-left: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif
@@ -65,7 +65,7 @@ a{
 }
 
 img{
-    max-width: 100%;
+    max-width: 510px;
     max-height: 300px;
     margin-left: auto;
     flex: auto;
@@ -119,7 +119,7 @@ img{
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding: 50px;
 }
 
@@ -138,7 +138,7 @@ img{
 }
 
 .inspiring-quote{
-    background-color: #e5e7eb;
+    background-color: #cdcfd1;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -181,11 +181,13 @@ img{
     font-size: 24px;
     color: #f9faf8;
     font-weight: bold;
+    font-family: 'Roboto', sans-serif;
 }
 
 .sign-up-text .text2{
     font-size: 18px;
     color: #f9faf8;
+    font-family: 'Roboto', sans-serif;
 }
 
 .bottom-button{
@@ -213,6 +215,7 @@ img{
 
 .footer .text{
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
     color: #f9faf8;
+    font-family: 'Roboto', sans-serif;
 }
