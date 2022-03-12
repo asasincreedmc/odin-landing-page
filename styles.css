@@ -205,3 +205,14 @@ img{
     background-color: #f9faf8;
     color: #3882f6;
 }
+
+.footer{
+    background-color: #1f2937;
+    padding: 50px;
+}
+
+.footer .text{
+    text-align: center;
+    font-size: 18px;
+    color: #f9faf8;
+}
