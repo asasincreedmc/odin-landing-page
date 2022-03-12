@@ -1,3 +1,3 @@
 # the-odin-project-landing-page
-Photo by Wesley Pribadi on Unsplash
+Photos by Wesley Pribadi and Jay Ruzesky on Unsplash
   
