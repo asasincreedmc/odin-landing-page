@@ -61,12 +61,14 @@ a{
     margin-left: 200px;
     flex: auto;
     width: 100px;
+    justify-content: space-between
 }
 
 img{
     max-width: 100%;
     max-height: 300px;
     margin-left: auto;
+    flex: auto;
 }
 
 .img-container{
@@ -77,4 +79,22 @@ img{
     display: flex;
     align-items: flex-start;
     flex: auto;
+}
+
+.hero-button{
+    max-width: fit-content;
+    padding: 7px 30px 7px 30px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 0px;
+    transition-duration: 0.4s;
+}
+
+.hero-button:hover{
+    background-color: #e5e7eb;
+    color: #3882f6;
 }
