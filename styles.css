@@ -95,7 +95,7 @@ img{
 }
 
 .hero-button:hover{
-    background-color: #e5e7eb;
+    background-color: #f9faf8;
     color: #3882f6;
 }
 
@@ -157,4 +157,51 @@ img{
     font-weight: bold;
     font-size: 24px;
     margin-left: 500px;
+}
+
+.sign-up{
+    background-color: #3882f6;
+    display: flex;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.sign-up-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.sign-up-background{
+    padding: 120px 250px;
+}
+
+.sign-up-text .text1{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.sign-up-text .text2{
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+.bottom-button{
+    margin-left: auto;
+    margin-right: 100px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 2px solid #f9faf8;
+    border-radius: 15px;
+    padding: 0px 50px 0px 50px;
+    font-size: 18px;
+    font-weight: bold;
+    transition-duration: 0.4s;
+}
+
+.bottom-button:hover{
+    background-color: #f9faf8;
+    color: #3882f6;
 }
